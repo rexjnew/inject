@@ -43,7 +43,7 @@ const proxy = createProxyMiddleware({
     //await console.log(response);
     //return response; // manipulate response and return the result
 
-   return replacedString.replace('Hello', 'HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH');
+   return replacedString.replace('Hello', 'Goodbye');
   }),
 
 });
